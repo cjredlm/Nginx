@@ -47,3 +47,15 @@ server {
 ls
 
 
+* Revisamos que este correcto
+
+nginx -t
+
+
+* Reiniciamos Nginx
+
+sudo service nginx restart
+sudo service nginx status
+
+
+
