@@ -1,0 +1,7 @@
+************************************ Instalar-Nginx ***********************************
+
+* Revisamos la version de Nginx
+
+nginx -v
+
+
