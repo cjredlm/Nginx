@@ -27,3 +27,23 @@ cd /etc/nginx/sites-enabled
 sudo vim dns.yourdomain.com
 
 
+* Copiar dentro de el archivo
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name  YOUR-DOMAIN-NAME;
+
+    location / {
+        proxy_set_header Host $http_host;
+        proxy_pass           http://localhost:3000/;
+    }
+}
+
+
+
+*  Comprobar que ya se encuentre disponible
+
+ls
+
+
