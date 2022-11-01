@@ -5,3 +5,25 @@
 nginx -v
 
 
+* Instalar
+
+sudo apt install nginx
+
+
+* Revisar que este activo
+
+sudo service nginx status
+
+
+
+* Revisar sitios disponibles
+
+cd /etc/nginx/sites-enabled
+
+
+
+* Entrar a la carpeta
+
+sudo vim dns.yourdomain.com
+
+
